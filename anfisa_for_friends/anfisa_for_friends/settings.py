@@ -79,9 +79,13 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-LANGUAGE_CODE = 'en-us'
+# anfisa_for_friends/settings.py
+
+# Переводим на русский!
+LANGUAGE_CODE = 'ru-RU'
 
 TIME_ZONE = 'UTC'
+
 
 USE_I18N = True
 
