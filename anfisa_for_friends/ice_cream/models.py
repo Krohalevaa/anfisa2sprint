@@ -50,6 +50,6 @@ class IceCream(PublishedModel):
     is_on_main = models.BooleanField('На главную', default=False)
     class Meta:
         verbose_name = 'мороженое'
-        verbose_name_plural = 'Мороженые' 
+        verbose_name_plural = 'Мороженое' 
     def __str__(self):
         return self.title

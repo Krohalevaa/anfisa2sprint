@@ -34,9 +34,6 @@ class IceCreamAdmin(admin.ModelAdmin):
 
 admin.site.register(IceCream, IceCreamAdmin)
 
-# ice_cream/admin.py
-...
-
 # Подготавливаем модель IceCream для вставки на страницу другой модели.
 class IceCreamInline(admin.TabularInline):
     model = IceCream
